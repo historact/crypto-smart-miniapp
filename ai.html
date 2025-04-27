@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto AI Assistant</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <h1>🤖 Crypto AI Assistant</h1>
+
+  <div class="card">
+    <textarea id="userQuestion" placeholder="Ask anything about crypto..." rows="5"></textarea><br>
+    <button onclick="askAI()">Ask AI</button>
+    <p id="aiAnswer"></p>
+  </div>
+
+  <a href="index.html">
+    <button>🔙 Back to Dashboard</button>
+  </a>
+
+  <script src="ai_script.js"></script>
+</body>
+</html>
